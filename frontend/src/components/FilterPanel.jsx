@@ -41,7 +41,7 @@ const FilterPanel = () => {
     "Pulmonologist",
     "Psychiatrist",
     "Urologist",
-    "Dietitian-Nutritionist",
+    "Dietitian/Nutritionist",
     "Psychologist",
     "Sexologist",
     "Nephrologist",
