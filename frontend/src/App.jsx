@@ -1,9 +1,13 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import DoctorListPage from "./pages/DoctorListingPage";
 
 function App() {
   return (
-    <>
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<DoctorListPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
