@@ -25,7 +25,7 @@ const FilterPanel = () => {
   };
 
   const specialties = [
-    "General-Physician",
+    "General Physician",
     "Dentist",
     "Dermatologist",
     "Paediatrician",
